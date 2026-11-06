@@ -1,0 +1,5 @@
+FROM nginx:1.29.7
+LABEL COURSE="DOCKER_FDE"
+LABEL NAME="FDE"
+EXPOSE 80
+COPY qi/ /usr/share/nginx/html/
